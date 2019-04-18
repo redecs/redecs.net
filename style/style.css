@@ -1,0 +1,142 @@
+/*! minireset.css v0.0.4 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+ul {
+  list-style: none; }
+
+button,
+input,
+select,
+textarea {
+  margin: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::before, *::after {
+  box-sizing: inherit; }
+
+img,
+embed,
+iframe,
+object,
+video {
+  height: auto;
+  max-width: 100%; }
+
+audio {
+  max-width: 100%; }
+
+iframe {
+  border: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0;
+  text-align: left; }
+
+html {
+  height: 100%; }
+
+body {
+  min-height: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+  background-color: #282828;
+  background-size: 16px 16px; }
+
+a {
+  color: #333; }
+  a:hover, a:active {
+    color: #cc0000; }
+
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .section .container {
+    width: 100%;
+    max-width: 18em;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 2em;
+    flex: none; }
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0; }
+  .fa-ul > li {
+    position: relative;
+    margin-bottom: 0.3em; }
+  .fa-ul .fa-li {
+    left: -2em;
+    position: absolute;
+    text-align: center;
+    width: 2em;
+    line-height: inherit; }
+
+.fa-svg {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -.125em; }
+  .fa-svg.w-12 {
+    width: .75em;
+    margin-left: 0.125em;
+    margin-right: 0.125em; }
+  .fa-svg.w-16 {
+    width: 1em; }
+
+#logo {
+  display: block;
+  margin: 0 auto 1em;
+  width: 128px; }
+
+#main {
+  border: 1px solid #fff;
+  background: #ddd; }
+
+/*# sourceMappingURL=style.css.map */
